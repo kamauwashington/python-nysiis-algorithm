@@ -7,6 +7,8 @@ This project illustrates an implementation of the [NYSIIS Algorithm](https://en.
 
 Examples would be **Bishop** to **BASAP**, or **Willis** to **WALA**, as they are reduced to a form that can be easily matched by similar words or names.
 
+## Examples
+
 | Word     | Translation |
 |----------|-------------|
 | Harper   | HARBAR      |
