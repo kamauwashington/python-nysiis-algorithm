@@ -7,6 +7,16 @@ This project illustrates an implementation of the [NYSIIS Algorithm](https://en.
 
 Examples would be **Bishop** to **BASAP**, or **Willis** to **WALA**, as they are reduced to a form that can be easily matched by similar words or names.
 
+| Word     | Translation |
+|----------|-------------|
+| Harper   | HARBAR      |
+| Chapman  | CAPNAN      |
+| O'Daniel | ODANAL      |
+| Willis   | WALA        |
+| LouisXVI | LASXV       |
+| Jacobs   | JACAB       |
+
+
 > **IMPORTANT**
 >
 > This algorithm was authored to be *readable* as to the steps to achieve consistant and expected NYSIIS codes given the specification provided. 
@@ -37,4 +47,4 @@ write, a vanilla string manipulation implementation illustrates some of the intr
 ## Try / Ask
 
 * authoring this implementation or parts of it using REGEX, observe the performance at scale (try 10,000 iterations or more)
-* try *horse*, *hoarse* and why *horace* doesn't match? Which phonteic algorithm will match all three against eachother
+* Why do all examples have *Matthews* return as *MATA* when the last step states that a trailing *A* should be removed? 
