@@ -9,7 +9,7 @@ def __replaceAt(input : str, index : int, replace : str = "") -> str :
     return input[:index] + replace + input[(len(replace) or 1) + index:]
 
 
-
+# NYSIIS implementation https://en.wikipedia.org/wiki/New_York_State_Identification_and_Intelligence_System
 def nysiis (input : str) -> str | None:
 
     # fail fast if there isn't an input value to code (code defensively)
